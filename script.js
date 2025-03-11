@@ -3,9 +3,7 @@ const myArrow = document.querySelector("#myArrow");
 window.addEventListener("scroll", onScroll);
 
 myArrow.addEventListener("click", () => {
-
     myArrow.style.visibility = "hidden";
-
 });
 
 function onScroll() {

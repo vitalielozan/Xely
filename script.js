@@ -1,7 +1,7 @@
 const myArrow = document.querySelector("#myArrow");
 let arrowClicked = false;
-window.addEventListener("scroll", onScroll);
 
+window.addEventListener("scroll", onScroll);
 myArrow.addEventListener("click", (e) => {
     e.stopImmediatePropagation();
     arrowClicked = true;

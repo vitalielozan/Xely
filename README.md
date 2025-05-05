@@ -9,4 +9,7 @@
 ## Technology
 
 - HTML
+
 - Bootstrap
+
+- JavaScript

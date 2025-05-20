@@ -26,3 +26,16 @@ function getYear() {
   displayYear.innerHTML = currentYear;
 }
 getYear();
+
+const html = document.querySelector('#htmlPage');
+const checkbox = document.querySelector('#checkbox');
+
+checkbox.addEventListener('change', () => {
+  if (checkbox.checked) {
+    localStorage.setItem('theme', 'dark');
+    html.setAttribute('data-bs-theme', 'dark');
+  } else {
+    localStorage.setItem('theme', 'light');
+    html.setAttribute('data-bs-theme', 'light');
+  }
+});
